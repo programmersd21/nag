@@ -8,7 +8,7 @@
 
 **a tiny transparent command wrapper that tells you when a command finishes.**
 
-[![crates.io](https://img.shields.io/crates/v/nag.svg?style=flat-square&color=cba6f7&labelColor=1e1e2e)](https://crates.io/crates/nag)
+[![crates.io](https://img.shields.io/crates/v/nag-cli.svg?style=flat-square&color=cba6f7&labelColor=1e1e2e)](https://crates.io/crates/nag-cli)
 [![aur](https://img.shields.io/aur/version/nag-bin?style=flat-square&color=a6e3a1&labelColor=1e1e2e)](https://aur.archlinux.org/packages/nag-bin)
 [![ci](https://img.shields.io/github/actions/workflow/status/programmersd21/nag/ci.yml?branch=main&style=flat-square&color=89dceb&labelColor=1e1e2e)](https://github.com/programmersd21/nag/actions)
 [![license](https://img.shields.io/badge/license-MIT-f9e2af.svg?style=flat-square&labelColor=1e1e2e)](LICENSE)
@@ -24,7 +24,7 @@ prefix any command with `nag` and get notified the moment it finishes — deskto
 **cargo**
 
 ```
-cargo install nag
+cargo install nag-cli
 ```
 
 **arch linux (aur)**
