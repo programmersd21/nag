@@ -10,7 +10,7 @@ repository = "https://github.com/programmersd21/nag"
 homepage = "https://github.com/programmersd21/nag"
 keywords = ["cli", "wrapper", "notifications", "terminal", "notify"]
 categories = ["command-line-utilities", "development-tools"]
-exclude = ["demo/", "assets/", ".github/"]
+exclude = ["demo/", ".github/", "assets/cli.png"]
 
 [[bin]]
 name = "nag"

@@ -993,7 +993,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "nag"
+name = "nag-cli"
 version = "0.1.0"
 dependencies = [
  "clap",
