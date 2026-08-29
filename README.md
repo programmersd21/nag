@@ -4,6 +4,8 @@
 
 ## nag
 
+![demo](assets/cli.png)
+
 **a tiny transparent command wrapper that tells you when a command finishes.**
 
 [![crates.io](https://img.shields.io/crates/v/nag.svg?style=flat-square&color=cba6f7&labelColor=1e1e2e)](https://crates.io/crates/nag)
