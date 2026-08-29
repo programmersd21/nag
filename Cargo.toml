@@ -1,0 +1,34 @@
+[package]
+name = "nag"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.80"
+description = "a tiny transparent command wrapper that tells you when a command finishes."
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/programmersd21/nag"
+homepage = "https://github.com/programmersd21/nag"
+keywords = ["cli", "wrapper", "notifications", "terminal", "notify"]
+categories = ["command-line-utilities", "development-tools"]
+exclude = ["demo/", "assets/", ".github/"]
+
+[dependencies]
+clap = { version = "4.5", features = ["derive", "cargo"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = { version = "0.8", default-features = false, features = ["parse", "display"] }
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls", "blocking"] }
+notify-rust = { version = "4.11", default-features = true }
+terminal_size = "0.4"
+nix = { version = "0.29", default-features = false, features = ["signal", "process"] }
+
+[dev-dependencies]
+tempfile = "3.17"
+httptest = "0.16"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "unwind"
+strip = true
